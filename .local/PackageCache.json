@@ -1,0 +1,2632 @@
+{
+  "Packages": [
+    {
+      "Package": {
+        "Id": "SendGridMailActivities",
+        "Version": "4.1.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\sendgridmailactivities/4.1.9\\lib/SendGrid.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\sendgridmailactivities/4.1.9\\lib/Sengrid.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\sendgridmailactivities\\4.1.9"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.7.1-ce"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\closedxml/0.94.2\\lib/net46/ClosedXML.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\documentformat.openxml/2.7.2\\lib/net46/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\excelnumberformat/1.0.3\\lib/net20/ExcelNumberFormat.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\fastmember/1.3.0\\lib/net45/FastMember.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.filesystem.primitives/4.0.1\\lib/net46/System.IO.FileSystem.Primitives.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.packaging/4.0.0\\lib/net46/System.IO.Packaging.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities/2.7.1-ce\\lib/net461/UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities/2.7.1-ce\\lib/net461/UiPath.Excel.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities/2.7.1-ce\\lib/net461/UiPath.Excel.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities\\2.7.1-ce"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.GSuite.Activities",
+        "Version": "1.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis/1.40.2\\lib/net45/Google.Apis.PlatformServices.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis/1.40.2\\lib/net45/Google.Apis.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.auth/1.40.2\\lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.auth/1.40.2\\lib/net45/Google.Apis.Auth.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.calendar.v3/1.40.2.1611\\lib/net45/Google.Apis.Calendar.v3.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.core/1.40.2\\lib/net45/Google.Apis.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.docs.v1/1.40.2.1615\\lib/net45/Google.Apis.Docs.v1.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.drive.v3/1.40.2.1610\\lib/net45/Google.Apis.Drive.v3.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.gmail.v1/1.40.2.1613\\lib/net45/Google.Apis.Gmail.v1.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.sheets.v4/1.40.2.1614\\lib/net45/Google.Apis.Sheets.v4.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\mimekit/2.2.0\\lib/net45/MimeKit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\nodatime/2.4.6\\lib/net45/NodaTime.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities/1.3.0\\lib/net461/UiPath.GSuite.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities/1.3.0\\lib/net461/UiPath.GSuite.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities/1.3.0\\lib/net461/UiPath.GSuite.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities\\1.3.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.7.1-ce"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities/1.7.1-ce\\lib/net461/MailKit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities/1.7.1-ce\\lib/net461/MimeKit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities/1.7.1-ce\\lib/net461/UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities/1.7.1-ce\\lib/net461/UiPath.Mail.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities/1.7.1-ce\\lib/net461/UiPath.Mail.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities\\1.7.1-ce"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MicrosoftOffice365.Activities",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\bouncycastle/1.8.5\\lib/BouncyCastle.Crypto.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\closedxml/0.94.2\\lib/net46/ClosedXML.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\documentformat.openxml/2.7.2\\lib/net46/DocumentFormat.OpenXml.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\excelnumberformat/1.0.3\\lib/net20/ExcelNumberFormat.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\fastmember/1.3.0\\lib/net45/FastMember.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.graph/1.12.0\\lib/net45/Microsoft.Graph.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.graph.core/1.12.0\\lib/net45/Microsoft.Graph.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.identity.client/2.7.1\\lib/net45/Microsoft.Identity.Client.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\mimekit/2.2.0\\lib/net45/MimeKit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.filesystem.primitives/4.0.1\\lib/net46/System.IO.FileSystem.Primitives.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.packaging/4.0.0\\lib/net46/System.IO.Packaging.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.0.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.0.1\\lib/net461/UiPath.MicrosoftOffice365.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities/1.0.1\\lib/net461/UiPath.MicrosoftOffice365.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.0.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MicrosoftVision.Activities",
+        "Version": "2.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision/5.0.0\\lib/net452/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.rest.clientruntime.azure/3.3.19\\lib/net461/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities/2.1.0\\lib/net461/UiPath.MicrosoftVision.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities/2.1.0\\lib/net461/UiPath.MicrosoftVision.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities/2.1.0\\lib/net461/UiPath.MicrosoftVision.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities\\2.1.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MLServices.Activities",
+        "Version": "1.1.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities/1.1.3\\lib/net461/UiPath.MLServices.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities/1.1.3\\lib/net461/UiPath.MLServices.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities/1.1.3\\lib/net461/UiPath.MLServices.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities\\1.1.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.1.6863.33404"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/UiPath.Python.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x64/Python.Runtime.35.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x64/Python.Runtime.36.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.27.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.33.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.34.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.35.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities/1.1.6863.33404\\lib/net452/x86/Python.Runtime.36.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "20.10.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnet.signalr.client/2.4.0\\lib/net45/Microsoft.AspNet.SignalR.Client.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Connections.Abstractions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Client.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.features/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.client/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Client.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.common/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Common.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json/3.1.6\\lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.bcl.asyncinterfaces/1.1.1\\lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration.binder/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.dependencyinjection/3.1.6\\lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.logging/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.logging.abstractions/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.options/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.primitives/3.1.6\\lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.21\\lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\sharpziplib/1.2.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.buffers/4.5.1\\lib/net461/System.Buffers.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.componentmodel.annotations/4.7.0\\lib/net461/System.ComponentModel.Annotations.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.pipelines/4.7.1\\lib/netstandard2.0/System.IO.Pipelines.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.memory/4.5.4\\lib/net461/System.Memory.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.numerics.vectors/4.5.0\\lib/net46/System.Numerics.Vectors.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.text.encodings.web/4.7.1\\lib/net461/System.Text.Encodings.Web.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.text.json/4.7.2\\lib/net461/System.Text.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.channels/4.7.1\\lib/net461/System.Threading.Channels.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.OrchestratorClient.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.System.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities/20.10.1\\lib/net461/UiPath.System.Activities.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "20.10.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\aforge/2.2.5\\lib/AForge.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\aforge.imaging/2.2.5\\lib/AForge.Imaging.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\aforge.math/2.2.5\\lib/AForge.Math.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit/3.8.1\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\nlog/4.5.11\\lib/net45/NLog.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.collections.immutable/1.5.0\\lib/netstandard2.0/System.Collections.Immutable.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath/20.10.7585.27318\\lib/UiPath.Interop.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.activities/2.4.0\\lib/net461/UiPath.OCR.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.contracts/2.7.1\\lib/net461/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.platform/20.10.4\\lib/net461/UiPath.Platform.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.telemetry.client/1.2.20\\lib/net461/TelemetryClient.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.CV.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.CV.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities/20.10.6\\lib/net461/UiPath.Wizards.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.AzureComputerVision.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.GoogleCloud.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Microsoft.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.MicrosoftCloud.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision/2.2.0\\lib/net461/UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Word.Activities",
+        "Version": "1.5.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\docx/1.0.0.18\\lib/net40/DocX.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities/1.5.3\\lib/net461/UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities/1.5.3\\lib/net461/UiPath.Word.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities/1.5.3\\lib/net461/UiPath.Word.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities\\1.5.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.ImageActivities.Activities",
+        "Version": "1.0.0.200"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipathteam.imageactivities.activities/1.0.0.200\\lib/ImageActivities.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipathteam.imageactivities.activities\\1.0.0.200"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Form.Activities",
+        "Version": "1.1.7"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\castle.core/4.3.1\\lib/net45/Castle.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.abstractions/3.0.10\\lib/net40/System.IO.Abstractions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.runtime.compilerservices.unsafe/4.7.1\\lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.dataflow/4.10.0\\lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.extensions/4.5.4\\lib/net461/System.Threading.Tasks.Extensions.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/CefSharp.BrowserSubprocess.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/CefSharp.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/CefSharp.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/CefSharp.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/UiPath.CEFSharpBundle.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/chrome_elf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/d3dcompiler_47.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/libEGL.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/libGLESv2.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/libcef.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/msvcp140.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/swiftshader/libEGL.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/swiftshader/libGLESv2.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle/1.2.0\\lib/net452/vcruntime140.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities/1.1.7\\lib/net461/UiPath.Callout.Activity.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities/1.1.7\\lib/net461/UiPath.Callout.Activity.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities/1.1.7\\lib/net461/UiPath.Callout.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities/1.1.7\\lib/net461/UiPath.Form.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities/1.1.7\\lib/net461/UiPath.Form.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary/1.1.7\\lib/net461/UiPath.Form.ActivityLibrary.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary/1.1.7\\lib/net461/UiPath.Form.Host.Local.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary/1.1.7\\lib/net461/UiPath.Form.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary/1.1.7\\lib/net461/UiPath.OutOfProcessUi.Common.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary.contracts/1.1.1\\lib/net461/UiPath.Form.ActivityLibrary.Contracts.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.telemetry.client/1.2.20\\lib/net461/TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities\\1.1.7"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json/11.0.2\\lib/net45/Newtonsoft.Json.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\restsharp/106.3.1\\lib/net452/RestSharp.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities/1.6.0\\lib/net452/UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities/1.6.0\\lib/net452/UiPath.Web.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities/1.6.0\\lib/net452/UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities\\1.6.0"
+    }
+  ],
+  "Conflicts": [],
+  "ResolvedDependencies": {
+    "AForge": {
+      "Id": "AForge",
+      "Version": "2.2.5",
+      "Dependencies": []
+    },
+    "AForge.Imaging": {
+      "Id": "AForge.Imaging",
+      "Version": "2.2.5",
+      "Dependencies": [
+        {
+          "Item1": "AForge",
+          "Item2": "[2.2.5, )"
+        },
+        {
+          "Item1": "AForge.Math",
+          "Item2": "[2.2.5, )"
+        }
+      ]
+    },
+    "AForge.Math": {
+      "Id": "AForge.Math",
+      "Version": "2.2.5",
+      "Dependencies": [
+        {
+          "Item1": "AForge",
+          "Item2": "[2.2.5, )"
+        }
+      ]
+    },
+    "AvalonEdit": {
+      "Id": "AvalonEdit",
+      "Version": "5.0.3",
+      "Dependencies": []
+    },
+    "BouncyCastle": {
+      "Id": "BouncyCastle",
+      "Version": "1.8.5",
+      "Dependencies": []
+    },
+    "Castle.Core": {
+      "Id": "Castle.Core",
+      "Version": "4.3.1",
+      "Dependencies": []
+    },
+    "ClosedXML": {
+      "Id": "ClosedXML",
+      "Version": "0.94.2",
+      "Dependencies": [
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.7.2, )"
+        },
+        {
+          "Item1": "ExcelNumberFormat",
+          "Item2": "[1.0.3, )"
+        },
+        {
+          "Item1": "FastMember",
+          "Item2": "[1.3.0, )"
+        }
+      ]
+    },
+    "CsvHelper": {
+      "Id": "CsvHelper",
+      "Version": "2.13.5",
+      "Dependencies": []
+    },
+    "DocumentFormat.OpenXml": {
+      "Id": "DocumentFormat.OpenXml",
+      "Version": "2.7.2",
+      "Dependencies": [
+        {
+          "Item1": "System.IO.Packaging",
+          "Item2": "[4.0.0, )"
+        }
+      ]
+    },
+    "DocX": {
+      "Id": "DocX",
+      "Version": "1.0.0.18",
+      "Dependencies": []
+    },
+    "ExcelNumberFormat": {
+      "Id": "ExcelNumberFormat",
+      "Version": "1.0.3",
+      "Dependencies": []
+    },
+    "Extended.Wpf.Toolkit": {
+      "Id": "Extended.Wpf.Toolkit",
+      "Version": "3.8.1",
+      "Dependencies": []
+    },
+    "FastMember": {
+      "Id": "FastMember",
+      "Version": "1.3.0",
+      "Dependencies": []
+    },
+    "Google.Apis": {
+      "Id": "Google.Apis",
+      "Version": "1.40.2",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Auth": {
+      "Id": "Google.Apis.Auth",
+      "Version": "1.40.2",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.40.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Calendar.v3": {
+      "Id": "Google.Apis.Calendar.v3",
+      "Version": "1.40.2.1611",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.40.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Core": {
+      "Id": "Google.Apis.Core",
+      "Version": "1.40.2",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Docs.v1": {
+      "Id": "Google.Apis.Docs.v1",
+      "Version": "1.40.2.1615",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.40.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Drive.v3": {
+      "Id": "Google.Apis.Drive.v3",
+      "Version": "1.40.2.1610",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.40.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Gmail.v1": {
+      "Id": "Google.Apis.Gmail.v1",
+      "Version": "1.40.2.1613",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.40.2, )"
+        }
+      ]
+    },
+    "Google.Apis.Sheets.v4": {
+      "Id": "Google.Apis.Sheets.v4",
+      "Version": "1.40.2.1614",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.40.2, )"
+        }
+      ]
+    },
+    "Humanizer.Core": {
+      "Id": "Humanizer.Core",
+      "Version": "2.4.2",
+      "Dependencies": []
+    },
+    "interop.domino.dll": {
+      "Id": "interop.domino.dll",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "Microsoft.AspNet.SignalR.Client": {
+      "Id": "Microsoft.AspNet.SignalR.Client",
+      "Version": "2.4.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.4, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.Connections.Abstractions": {
+      "Id": "Microsoft.AspNetCore.Connections.Abstractions",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNetCore.Http.Features",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Bcl.AsyncInterfaces",
+          "Item2": "[1.1.1, )"
+        },
+        {
+          "Item1": "System.IO.Pipelines",
+          "Item2": "[4.7.1, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Connections.Client": {
+      "Id": "Microsoft.AspNetCore.Http.Connections.Client",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNetCore.Http.Connections.Common",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging.Abstractions",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[3.1.6, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Connections.Common": {
+      "Id": "Microsoft.AspNetCore.Http.Connections.Common",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNetCore.Connections.Abstractions",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "System.Text.Json",
+          "Item2": "[4.7.2, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features": {
+      "Id": "Microsoft.AspNetCore.Http.Features",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Primitives",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "System.IO.Pipelines",
+          "Item2": "[4.7.1, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Client": {
+      "Id": "Microsoft.AspNetCore.SignalR.Client",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNetCore.SignalR.Client.Core",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.AspNetCore.Http.Connections.Client",
+          "Item2": "[3.1.6, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Client.Core": {
+      "Id": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.AspNetCore.SignalR.Common",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Bcl.AsyncInterfaces",
+          "Item2": "[1.1.1, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "System.Threading.Channels",
+          "Item2": "[4.7.1, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Common": {
+      "Id": "Microsoft.AspNetCore.SignalR.Common",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNetCore.Connections.Abstractions",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "System.Text.Json",
+          "Item2": "[4.7.2, )"
+        }
+      ]
+    },
+    "Microsoft.AspNetCore.SignalR.Protocols.Json": {
+      "Id": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.AspNetCore.SignalR.Common",
+          "Item2": "[3.1.6, )"
+        }
+      ]
+    },
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+      "Id": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+      "Version": "5.0.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.18, 3.0.0)"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime.Azure",
+          "Item2": "[3.3.18, 4.0.0)"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.8, )"
+        }
+      ]
+    },
+    "Microsoft.Bcl.AsyncInterfaces": {
+      "Id": "Microsoft.Bcl.AsyncInterfaces",
+      "Version": "1.1.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.4, )"
+        }
+      ]
+    },
+    "Microsoft.Exchange.WebServices": {
+      "Id": "Microsoft.Exchange.WebServices",
+      "Version": "2.2.0",
+      "Dependencies": []
+    },
+    "Microsoft.Extensions.Configuration": {
+      "Id": "Microsoft.Extensions.Configuration",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Configuration.Abstractions",
+          "Item2": "[3.1.6, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions": {
+      "Id": "Microsoft.Extensions.Configuration.Abstractions",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Primitives",
+          "Item2": "[3.1.6, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Binder": {
+      "Id": "Microsoft.Extensions.Configuration.Binder",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Configuration",
+          "Item2": "[3.1.6, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection": {
+      "Id": "Microsoft.Extensions.DependencyInjection",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Bcl.AsyncInterfaces",
+          "Item2": "[1.1.1, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions": {
+      "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Version": "3.1.6",
+      "Dependencies": []
+    },
+    "Microsoft.Extensions.Logging": {
+      "Id": "Microsoft.Extensions.Logging",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.Configuration.Binder",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Logging.Abstractions",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Options",
+          "Item2": "[3.1.6, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions": {
+      "Id": "Microsoft.Extensions.Logging.Abstractions",
+      "Version": "3.1.6",
+      "Dependencies": []
+    },
+    "Microsoft.Extensions.Options": {
+      "Id": "Microsoft.Extensions.Options",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Extensions.DependencyInjection.Abstractions",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Extensions.Primitives",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "System.ComponentModel.Annotations",
+          "Item2": "[4.7.0, )"
+        }
+      ]
+    },
+    "Microsoft.Extensions.Primitives": {
+      "Id": "Microsoft.Extensions.Primitives",
+      "Version": "3.1.6",
+      "Dependencies": [
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.2, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.7.1, )"
+        }
+      ]
+    },
+    "Microsoft.Graph": {
+      "Id": "Microsoft.Graph",
+      "Version": "1.12.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Graph.Core",
+          "Item2": "[1.12.0, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.1, 12.0.0)"
+        }
+      ]
+    },
+    "Microsoft.Graph.Core": {
+      "Id": "Microsoft.Graph.Core",
+      "Version": "1.12.0",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.1, 12.0.0)"
+        }
+      ]
+    },
+    "Microsoft.Identity.Client": {
+      "Id": "Microsoft.Identity.Client",
+      "Version": "2.7.1",
+      "Dependencies": []
+    },
+    "Microsoft.Rest.ClientRuntime": {
+      "Id": "Microsoft.Rest.ClientRuntime",
+      "Version": "2.3.21",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        }
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime.Azure": {
+      "Id": "Microsoft.Rest.ClientRuntime.Azure",
+      "Version": "3.3.19",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.19, 3.0.0)"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        }
+      ]
+    },
+    "Microsoft.VisualStudio.OLE.Interop": {
+      "Id": "Microsoft.VisualStudio.OLE.Interop",
+      "Version": "7.10.6071",
+      "Dependencies": []
+    },
+    "MimeKit": {
+      "Id": "MimeKit",
+      "Version": "2.2.0",
+      "Dependencies": [
+        {
+          "Item1": "BouncyCastle",
+          "Item2": "[1.8.5, )"
+        }
+      ]
+    },
+    "Newtonsoft.Json": {
+      "Id": "Newtonsoft.Json",
+      "Version": "11.0.2",
+      "Dependencies": []
+    },
+    "NLog": {
+      "Id": "NLog",
+      "Version": "4.5.11",
+      "Dependencies": []
+    },
+    "NodaTime": {
+      "Id": "NodaTime",
+      "Version": "2.4.6",
+      "Dependencies": []
+    },
+    "NPOI": {
+      "Id": "NPOI",
+      "Version": "2.4.1",
+      "Dependencies": [
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "RestSharp": {
+      "Id": "RestSharp",
+      "Version": "106.3.1",
+      "Dependencies": []
+    },
+    "SendGridMailActivities": {
+      "Id": "SendGridMailActivities",
+      "Version": "4.1.9",
+      "Dependencies": []
+    },
+    "SharpZipLib": {
+      "Id": "SharpZipLib",
+      "Version": "1.2.0",
+      "Dependencies": []
+    },
+    "System.Buffers": {
+      "Id": "System.Buffers",
+      "Version": "4.5.1",
+      "Dependencies": []
+    },
+    "System.Collections.Immutable": {
+      "Id": "System.Collections.Immutable",
+      "Version": "1.5.0",
+      "Dependencies": []
+    },
+    "System.ComponentModel.Annotations": {
+      "Id": "System.ComponentModel.Annotations",
+      "Version": "4.7.0",
+      "Dependencies": []
+    },
+    "System.IO.Abstractions": {
+      "Id": "System.IO.Abstractions",
+      "Version": "3.0.10",
+      "Dependencies": []
+    },
+    "System.IO.FileSystem.Primitives": {
+      "Id": "System.IO.FileSystem.Primitives",
+      "Version": "4.0.1",
+      "Dependencies": []
+    },
+    "System.IO.Packaging": {
+      "Id": "System.IO.Packaging",
+      "Version": "4.0.0",
+      "Dependencies": [
+        {
+          "Item1": "System.IO.FileSystem.Primitives",
+          "Item2": "[4.0.1, )"
+        }
+      ]
+    },
+    "System.IO.Pipelines": {
+      "Id": "System.IO.Pipelines",
+      "Version": "4.7.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Buffers",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.3, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.2, )"
+        }
+      ]
+    },
+    "System.Memory": {
+      "Id": "System.Memory",
+      "Version": "4.5.4",
+      "Dependencies": [
+        {
+          "Item1": "System.Buffers",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "System.Numerics.Vectors",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.3, )"
+        }
+      ]
+    },
+    "System.Numerics.Vectors": {
+      "Id": "System.Numerics.Vectors",
+      "Version": "4.5.0",
+      "Dependencies": []
+    },
+    "System.Runtime.CompilerServices.Unsafe": {
+      "Id": "System.Runtime.CompilerServices.Unsafe",
+      "Version": "4.7.1",
+      "Dependencies": []
+    },
+    "System.Text.Encodings.Web": {
+      "Id": "System.Text.Encodings.Web",
+      "Version": "4.7.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.4, )"
+        }
+      ]
+    },
+    "System.Text.Json": {
+      "Id": "System.Text.Json",
+      "Version": "4.7.2",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Bcl.AsyncInterfaces",
+          "Item2": "[1.1.0, )"
+        },
+        {
+          "Item1": "System.Buffers",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.4, )"
+        },
+        {
+          "Item1": "System.Numerics.Vectors",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.7.1, )"
+        },
+        {
+          "Item1": "System.Text.Encodings.Web",
+          "Item2": "[4.7.1, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.4, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        }
+      ]
+    },
+    "System.Threading.Channels": {
+      "Id": "System.Threading.Channels",
+      "Version": "4.7.1",
+      "Dependencies": [
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.4, )"
+        }
+      ]
+    },
+    "System.Threading.Tasks.Dataflow": {
+      "Id": "System.Threading.Tasks.Dataflow",
+      "Version": "4.10.0",
+      "Dependencies": []
+    },
+    "System.Threading.Tasks.Extensions": {
+      "Id": "System.Threading.Tasks.Extensions",
+      "Version": "4.5.4",
+      "Dependencies": [
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.3, )"
+        }
+      ]
+    },
+    "System.ValueTuple": {
+      "Id": "System.ValueTuple",
+      "Version": "4.5.0",
+      "Dependencies": []
+    },
+    "UiPath": {
+      "Id": "UiPath",
+      "Version": "20.10.7585.27318",
+      "Dependencies": []
+    },
+    "UiPath.CefSharpBundle": {
+      "Id": "UiPath.CefSharpBundle",
+      "Version": "1.2.0",
+      "Dependencies": []
+    },
+    "UiPath.Excel.Activities": {
+      "Id": "UiPath.Excel.Activities",
+      "Version": "2.7.1-ce",
+      "Dependencies": [
+        {
+          "Item1": "ClosedXML",
+          "Item2": "[0.87.1, )"
+        },
+        {
+          "Item1": "CsvHelper",
+          "Item2": "[2.13.5, )"
+        },
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.5.0, )"
+        },
+        {
+          "Item1": "Microsoft.VisualStudio.OLE.Interop",
+          "Item2": "[7.10.6071, )"
+        },
+        {
+          "Item1": "NPOI",
+          "Item2": "[2.4.1, )"
+        },
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.Form.Activities": {
+      "Id": "UiPath.Form.Activities",
+      "Version": "1.1.7",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.2, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary",
+          "Item2": "[1.1.7, )"
+        },
+        {
+          "Item1": "Castle.Core",
+          "Item2": "[4.3.1, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.2.20, )"
+        }
+      ]
+    },
+    "UiPath.FormActivityLibrary": {
+      "Id": "UiPath.FormActivityLibrary",
+      "Version": "1.1.7",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "UiPath.FormActivityLibrary.Contracts",
+          "Item2": "[1.1.1, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.2, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.3.0, )"
+        },
+        {
+          "Item1": "UiPath.CefSharpBundle",
+          "Item2": "[1.2.0, )"
+        }
+      ]
+    },
+    "UiPath.FormActivityLibrary.Contracts": {
+      "Id": "UiPath.FormActivityLibrary.Contracts",
+      "Version": "1.1.1",
+      "Dependencies": []
+    },
+    "UiPath.GSuite.Activities": {
+      "Id": "UiPath.GSuite.Activities",
+      "Version": "1.3.0",
+      "Dependencies": [
+        {
+          "Item1": "Google.Apis",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Auth",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Calendar.v3",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Docs.v1",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Core",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Drive.v3",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Gmail.v1",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "Google.Apis.Sheets.v4",
+          "Item2": "[1.40.2, )"
+        },
+        {
+          "Item1": "MimeKit",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "BouncyCastle",
+          "Item2": "[1.8.5, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        },
+        {
+          "Item1": "NodaTime",
+          "Item2": "[2.4.6, )"
+        }
+      ]
+    },
+    "UiPath.Mail.Activities": {
+      "Id": "UiPath.Mail.Activities",
+      "Version": "1.7.1-ce",
+      "Dependencies": [
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "Microsoft.Exchange.WebServices",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "BouncyCastle",
+          "Item2": "[1.8.5, )"
+        },
+        {
+          "Item1": "interop.domino.dll",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.MicrosoftOffice365.Activities": {
+      "Id": "UiPath.MicrosoftOffice365.Activities",
+      "Version": "1.0.1",
+      "Dependencies": [
+        {
+          "Item1": "ClosedXML",
+          "Item2": "[0.94.2, )"
+        },
+        {
+          "Item1": "Microsoft.Graph",
+          "Item2": "[1.12.0, )"
+        },
+        {
+          "Item1": "MimeKit",
+          "Item2": "[2.1.3, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "Microsoft.Identity.Client",
+          "Item2": "[2.7.1, )"
+        }
+      ]
+    },
+    "UiPath.MicrosoftVision.Activities": {
+      "Id": "UiPath.MicrosoftVision.Activities",
+      "Version": "2.1.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+          "Item2": "[5.0.0, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.20, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime.Azure",
+          "Item2": "[3.3.19, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        }
+      ]
+    },
+    "UiPath.MLServices.Activities": {
+      "Id": "UiPath.MLServices.Activities",
+      "Version": "1.1.3",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        }
+      ]
+    },
+    "UiPath.OCR.Activities": {
+      "Id": "UiPath.OCR.Activities",
+      "Version": "2.4.0",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.7.1, )"
+        },
+        {
+          "Item1": "AForge.Imaging",
+          "Item2": "[2.2.5, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "NLog",
+          "Item2": "[4.5.11, )"
+        },
+        {
+          "Item1": "System.Collections.Immutable",
+          "Item2": "[1.5.0, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        }
+      ]
+    },
+    "UiPath.OCR.Contracts": {
+      "Id": "UiPath.OCR.Contracts",
+      "Version": "2.7.1",
+      "Dependencies": []
+    },
+    "UiPath.Platform": {
+      "Id": "UiPath.Platform",
+      "Version": "20.10.4",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        }
+      ]
+    },
+    "UiPath.Python.Activities": {
+      "Id": "UiPath.Python.Activities",
+      "Version": "1.1.6863.33404",
+      "Dependencies": []
+    },
+    "UiPath.System.Activities": {
+      "Id": "UiPath.System.Activities",
+      "Version": "20.10.1",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[20.10.4, )"
+        },
+        {
+          "Item1": "CsvHelper",
+          "Item2": "[2.13.5, )"
+        },
+        {
+          "Item1": "Microsoft.AspNet.SignalR.Client",
+          "Item2": "[2.4.0, )"
+        },
+        {
+          "Item1": "Microsoft.AspNetCore.SignalR.Client",
+          "Item2": "[3.1.6, )"
+        },
+        {
+          "Item1": "Microsoft.Bcl.AsyncInterfaces",
+          "Item2": "[1.1.1, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.21, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.2.0, )"
+        },
+        {
+          "Item1": "System.Buffers",
+          "Item2": "[4.5.1, )"
+        },
+        {
+          "Item1": "System.Memory",
+          "Item2": "[4.5.4, )"
+        },
+        {
+          "Item1": "System.Numerics.Vectors",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "System.Runtime.CompilerServices.Unsafe",
+          "Item2": "[4.7.1, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Extensions",
+          "Item2": "[4.5.4, )"
+        }
+      ]
+    },
+    "UiPath.Telemetry.Client": {
+      "Id": "UiPath.Telemetry.Client",
+      "Version": "1.2.20",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.1, )"
+        },
+        {
+          "Item1": "System.Threading.Tasks.Dataflow",
+          "Item2": "[4.10.0, )"
+        }
+      ]
+    },
+    "UiPath.UIAutomation.Activities": {
+      "Id": "UiPath.UIAutomation.Activities",
+      "Version": "20.10.6",
+      "Dependencies": [
+        {
+          "Item1": "UiPath",
+          "Item2": "[20.10.7585.27318, 20.10.7585.27318]"
+        },
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.7.1, )"
+        },
+        {
+          "Item1": "UiPath.OCR.Activities",
+          "Item2": "[2.4.0, )"
+        },
+        {
+          "Item1": "UiPath.Platform",
+          "Item2": "[20.10.4, )"
+        },
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Extended.Wpf.Toolkit",
+          "Item2": "[3.8.1, )"
+        },
+        {
+          "Item1": "Humanizer.Core",
+          "Item2": "[2.4.2, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "System.IO.Abstractions",
+          "Item2": "[3.0.10, )"
+        },
+        {
+          "Item1": "UiPath.Telemetry.Client",
+          "Item2": "[1.2.20, )"
+        }
+      ]
+    },
+    "UiPath.Vision": {
+      "Id": "UiPath.Vision",
+      "Version": "2.2.0",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[2.7.1, )"
+        }
+      ]
+    },
+    "UiPath.WebAPI.Activities": {
+      "Id": "UiPath.WebAPI.Activities",
+      "Version": "1.6.0",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[11.0.2, )"
+        },
+        {
+          "Item1": "RestSharp",
+          "Item2": "[106.3.1, )"
+        }
+      ]
+    },
+    "UiPath.Word.Activities": {
+      "Id": "UiPath.Word.Activities",
+      "Version": "1.5.3",
+      "Dependencies": [
+        {
+          "Item1": "DocX",
+          "Item2": "[1.0.0.18, )"
+        }
+      ]
+    },
+    "UiPathTeam.ImageActivities.Activities": {
+      "Id": "UiPathTeam.ImageActivities.Activities",
+      "Version": "1.0.0.200",
+      "Dependencies": []
+    }
+  },
+  "AllPackages": [
+    {
+      "Package": {
+        "Id": "AForge",
+        "Version": "2.2.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\aforge\\2.2.5\\lib\\AForge.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\aforge\\2.2.5"
+    },
+    {
+      "Package": {
+        "Id": "AForge.Imaging",
+        "Version": "2.2.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\aforge.imaging\\2.2.5\\lib\\AForge.Imaging.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\aforge.imaging\\2.2.5"
+    },
+    {
+      "Package": {
+        "Id": "AForge.Math",
+        "Version": "2.2.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\aforge.math\\2.2.5\\lib\\AForge.Math.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\aforge.math\\2.2.5"
+    },
+    {
+      "Package": {
+        "Id": "AvalonEdit",
+        "Version": "5.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\avalonedit\\5.0.3\\lib\\Net40\\ICSharpCode.AvalonEdit.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\avalonedit\\5.0.3"
+    },
+    {
+      "Package": {
+        "Id": "BouncyCastle",
+        "Version": "1.8.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\bouncycastle\\1.8.5\\lib\\BouncyCastle.Crypto.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\bouncycastle\\1.8.5"
+    },
+    {
+      "Package": {
+        "Id": "Castle.Core",
+        "Version": "4.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\castle.core\\4.3.1\\lib\\net45\\Castle.Core.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\castle.core\\4.3.1"
+    },
+    {
+      "Package": {
+        "Id": "ClosedXML",
+        "Version": "0.94.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\closedxml\\0.94.2\\lib\\net46\\ClosedXML.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\closedxml\\0.94.2"
+    },
+    {
+      "Package": {
+        "Id": "CsvHelper",
+        "Version": "2.13.5"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\csvhelper\\2.13.5\\lib\\net40-client\\CsvHelper.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\csvhelper\\2.13.5"
+    },
+    {
+      "Package": {
+        "Id": "DocumentFormat.OpenXml",
+        "Version": "2.7.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\documentformat.openxml\\2.7.2\\lib\\net46\\DocumentFormat.OpenXml.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\documentformat.openxml\\2.7.2"
+    },
+    {
+      "Package": {
+        "Id": "DocX",
+        "Version": "1.0.0.18"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\docx\\1.0.0.18\\lib\\net40\\DocX.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\docx\\1.0.0.18"
+    },
+    {
+      "Package": {
+        "Id": "ExcelNumberFormat",
+        "Version": "1.0.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\excelnumberformat\\1.0.3\\lib\\net20\\ExcelNumberFormat.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\excelnumberformat\\1.0.3"
+    },
+    {
+      "Package": {
+        "Id": "Extended.Wpf.Toolkit",
+        "Version": "3.8.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.AvalonDock.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1\\lib\\net40\\Xceed.Wpf.Toolkit.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\extended.wpf.toolkit\\3.8.1"
+    },
+    {
+      "Package": {
+        "Id": "FastMember",
+        "Version": "1.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\fastmember\\1.3.0\\lib\\net45\\FastMember.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\fastmember\\1.3.0"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis",
+        "Version": "1.40.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis\\1.40.2\\lib\\net45\\Google.Apis.PlatformServices.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis\\1.40.2\\lib\\net45\\Google.Apis.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis\\1.40.2"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Auth",
+        "Version": "1.40.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.auth\\1.40.2\\lib\\net45\\Google.Apis.Auth.PlatformServices.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.auth\\1.40.2\\lib\\net45\\Google.Apis.Auth.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.auth\\1.40.2"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Calendar.v3",
+        "Version": "1.40.2.1611"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.calendar.v3\\1.40.2.1611\\lib\\net45\\Google.Apis.Calendar.v3.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.calendar.v3\\1.40.2.1611"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Core",
+        "Version": "1.40.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.core\\1.40.2\\lib\\net45\\Google.Apis.Core.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.core\\1.40.2"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Docs.v1",
+        "Version": "1.40.2.1615"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.docs.v1\\1.40.2.1615\\lib\\net45\\Google.Apis.Docs.v1.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.docs.v1\\1.40.2.1615"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Drive.v3",
+        "Version": "1.40.2.1610"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.drive.v3\\1.40.2.1610\\lib\\net45\\Google.Apis.Drive.v3.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.drive.v3\\1.40.2.1610"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Gmail.v1",
+        "Version": "1.40.2.1613"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.gmail.v1\\1.40.2.1613\\lib\\net45\\Google.Apis.Gmail.v1.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.gmail.v1\\1.40.2.1613"
+    },
+    {
+      "Package": {
+        "Id": "Google.Apis.Sheets.v4",
+        "Version": "1.40.2.1614"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.sheets.v4\\1.40.2.1614\\lib\\net45\\Google.Apis.Sheets.v4.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\google.apis.sheets.v4\\1.40.2.1614"
+    },
+    {
+      "Package": {
+        "Id": "Humanizer.Core",
+        "Version": "2.4.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\humanizer.core\\2.4.2\\lib\\netstandard2.0\\Humanizer.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\humanizer.core\\2.4.2"
+    },
+    {
+      "Package": {
+        "Id": "interop.domino.dll",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\interop.domino.dll\\1.0.0\\lib\\Interop.Domino.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\interop.domino.dll\\1.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNet.SignalR.Client",
+        "Version": "2.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\lib\\net45\\Microsoft.AspNet.SignalR.Client.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.Connections.Abstractions",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Connections.Abstractions.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.Http.Connections.Client",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Client.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.Http.Connections.Common",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Connections.Common.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.Http.Features",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.Http.Features.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.SignalR.Client",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.SignalR.Client.Core",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Client.Core.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.SignalR.Common",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Common.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6\\lib\\netstandard2.0\\Microsoft.AspNetCore.SignalR.Protocols.Json.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Azure.CognitiveServices.Vision.ComputerVision",
+        "Version": "5.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\5.0.0\\lib\\net452\\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.azure.cognitiveservices.vision.computervision\\5.0.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Bcl.AsyncInterfaces",
+        "Version": "1.1.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\lib\\net461\\Microsoft.Bcl.AsyncInterfaces.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Exchange.WebServices",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.Auth.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0\\lib\\40\\Microsoft.Exchange.WebServices.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.exchange.webservices\\2.2.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Configuration",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Configuration.Abstractions",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Abstractions.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Configuration.Binder",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Configuration.Binder.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.DependencyInjection",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\lib\\net461\\Microsoft.Extensions.DependencyInjection.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Logging",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.logging\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Logging.Abstractions",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Options",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Options.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.options\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Extensions.Primitives",
+        "Version": "3.1.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\lib\\netstandard2.0\\Microsoft.Extensions.Primitives.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Graph",
+        "Version": "1.12.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.graph\\1.12.0\\lib\\net45\\Microsoft.Graph.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.graph\\1.12.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Graph.Core",
+        "Version": "1.12.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.graph.core\\1.12.0\\lib\\net45\\Microsoft.Graph.Core.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.graph.core\\1.12.0"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Identity.Client",
+        "Version": "2.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.identity.client\\2.7.1\\lib\\net45\\Microsoft.Identity.Client.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.identity.client\\2.7.1"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Rest.ClientRuntime",
+        "Version": "2.3.21"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\lib\\net461\\Microsoft.Rest.ClientRuntime.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.Rest.ClientRuntime.Azure",
+        "Version": "3.3.19"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.19\\lib\\net461\\Microsoft.Rest.ClientRuntime.Azure.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.rest.clientruntime.azure\\3.3.19"
+    },
+    {
+      "Package": {
+        "Id": "Microsoft.VisualStudio.OLE.Interop",
+        "Version": "7.10.6071"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\lib\\Microsoft.VisualStudio.OLE.Interop.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071"
+    },
+    {
+      "Package": {
+        "Id": "MimeKit",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\mimekit\\2.2.0\\lib\\net45\\MimeKit.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\mimekit\\2.2.0"
+    },
+    {
+      "Package": {
+        "Id": "Newtonsoft.Json",
+        "Version": "11.0.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json\\11.0.2\\lib\\net45\\Newtonsoft.Json.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\newtonsoft.json\\11.0.2"
+    },
+    {
+      "Package": {
+        "Id": "NLog",
+        "Version": "4.5.11"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\nlog\\4.5.11\\lib\\net45\\NLog.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\nlog\\4.5.11"
+    },
+    {
+      "Package": {
+        "Id": "NodaTime",
+        "Version": "2.4.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\nodatime\\2.4.6\\lib\\net45\\NodaTime.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\nodatime\\2.4.6"
+    },
+    {
+      "Package": {
+        "Id": "NPOI",
+        "Version": "2.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OOXML.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXml4Net.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\npoi\\2.4.1\\lib\\net45\\NPOI.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\npoi\\2.4.1"
+    },
+    {
+      "Package": {
+        "Id": "RestSharp",
+        "Version": "106.3.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\restsharp\\106.3.1\\lib\\net452\\RestSharp.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\restsharp\\106.3.1"
+    },
+    {
+      "Package": {
+        "Id": "SendGridMailActivities",
+        "Version": "4.1.9"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\sendgridmailactivities\\4.1.9\\lib\\SendGrid.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\sendgridmailactivities\\4.1.9\\lib\\Sengrid.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\sendgridmailactivities\\4.1.9"
+    },
+    {
+      "Package": {
+        "Id": "SharpZipLib",
+        "Version": "1.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\sharpziplib\\1.2.0\\lib\\net45\\ICSharpCode.SharpZipLib.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\sharpziplib\\1.2.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Buffers",
+        "Version": "4.5.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.buffers\\4.5.1\\lib\\net461\\System.Buffers.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.buffers\\4.5.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Collections.Immutable",
+        "Version": "1.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.collections.immutable\\1.5.0\\lib\\netstandard2.0\\System.Collections.Immutable.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.collections.immutable\\1.5.0"
+    },
+    {
+      "Package": {
+        "Id": "System.ComponentModel.Annotations",
+        "Version": "4.7.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\lib\\net461\\System.ComponentModel.Annotations.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.Abstractions",
+        "Version": "3.0.10"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.abstractions\\3.0.10\\lib\\net40\\System.IO.Abstractions.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.abstractions\\3.0.10"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.FileSystem.Primitives",
+        "Version": "4.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\lib\\net46\\System.IO.FileSystem.Primitives.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.Packaging",
+        "Version": "4.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.packaging\\4.0.0\\lib\\net46\\System.IO.Packaging.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.packaging\\4.0.0"
+    },
+    {
+      "Package": {
+        "Id": "System.IO.Pipelines",
+        "Version": "4.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.pipelines\\4.7.1\\lib\\netstandard2.0\\System.IO.Pipelines.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.io.pipelines\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Memory",
+        "Version": "4.5.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.memory\\4.5.4\\lib\\net461\\System.Memory.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.memory\\4.5.4"
+    },
+    {
+      "Package": {
+        "Id": "System.Numerics.Vectors",
+        "Version": "4.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\lib\\net46\\System.Numerics.Vectors.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.numerics.vectors\\4.5.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Runtime.CompilerServices.Unsafe",
+        "Version": "4.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\lib\\net461\\System.Runtime.CompilerServices.Unsafe.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Text.Encodings.Web",
+        "Version": "4.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\lib\\net461\\System.Text.Encodings.Web.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.text.encodings.web\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Text.Json",
+        "Version": "4.7.2"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.text.json\\4.7.2\\lib\\net461\\System.Text.Json.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.text.json\\4.7.2"
+    },
+    {
+      "Package": {
+        "Id": "System.Threading.Channels",
+        "Version": "4.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.channels\\4.7.1\\lib\\net461\\System.Threading.Channels.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.channels\\4.7.1"
+    },
+    {
+      "Package": {
+        "Id": "System.Threading.Tasks.Dataflow",
+        "Version": "4.10.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0\\lib\\netstandard2.0\\System.Threading.Tasks.Dataflow.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.dataflow\\4.10.0"
+    },
+    {
+      "Package": {
+        "Id": "System.Threading.Tasks.Extensions",
+        "Version": "4.5.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\lib\\net461\\System.Threading.Tasks.Extensions.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4"
+    },
+    {
+      "Package": {
+        "Id": "System.ValueTuple",
+        "Version": "4.5.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\system.valuetuple\\4.5.0\\lib\\net461\\System.ValueTuple.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\system.valuetuple\\4.5.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath",
+        "Version": "20.10.7585.27318"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath\\20.10.7585.27318\\lib\\UiPath.Interop.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath\\20.10.7585.27318"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.CefSharpBundle",
+        "Version": "1.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle\\1.2.0\\lib\\net452\\CefSharp.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle\\1.2.0\\lib\\net452\\CefSharp.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle\\1.2.0\\lib\\net452\\CefSharp.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.cefsharpbundle\\1.2.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.7.1-ce"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities\\2.7.1-ce\\lib\\net461\\UiPath.Excel.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities\\2.7.1-ce\\lib\\net461\\UiPath.Excel.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities\\2.7.1-ce\\lib\\net461\\UiPath.Excel.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.excel.activities\\2.7.1-ce"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Form.Activities",
+        "Version": "1.1.7"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities\\1.1.7\\lib\\net461\\UiPath.Callout.Activity.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities\\1.1.7\\lib\\net461\\UiPath.Callout.Activity.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities\\1.1.7\\lib\\net461\\UiPath.Callout.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities\\1.1.7\\lib\\net461\\UiPath.Form.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities\\1.1.7\\lib\\net461\\UiPath.Form.Activities.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.form.activities\\1.1.7"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FormActivityLibrary",
+        "Version": "1.1.7"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary\\1.1.7\\lib\\net461\\UiPath.Form.ActivityLibrary.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary\\1.1.7\\lib\\net461\\UiPath.Form.Host.Local.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary\\1.1.7\\lib\\net461\\UiPath.Form.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary\\1.1.7\\lib\\net461\\UiPath.OutOfProcessUi.Common.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary\\1.1.7\\lib\\net461\\UiPath.OutOfProcessUi.Host.WCF.exe"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary\\1.1.7"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.FormActivityLibrary.Contracts",
+        "Version": "1.1.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.1.1\\lib\\net461\\UiPath.Form.ActivityLibrary.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.1.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.GSuite.Activities",
+        "Version": "1.3.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities\\1.3.0\\lib\\net461\\UiPath.GSuite.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities\\1.3.0\\lib\\net461\\UiPath.GSuite.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities\\1.3.0\\lib\\net461\\UiPath.GSuite.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.gsuite.activities\\1.3.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.7.1-ce"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities\\1.7.1-ce\\lib\\net461\\MailKit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities\\1.7.1-ce\\lib\\net461\\MimeKit.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities\\1.7.1-ce\\lib\\net461\\UiPath.Mail.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities\\1.7.1-ce\\lib\\net461\\UiPath.Mail.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities\\1.7.1-ce\\lib\\net461\\UiPath.Mail.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mail.activities\\1.7.1-ce"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MicrosoftOffice365.Activities",
+        "Version": "1.0.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.0.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.0.1\\lib\\net461\\UiPath.MicrosoftOffice365.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.0.1\\lib\\net461\\UiPath.MicrosoftOffice365.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftoffice365.activities\\1.0.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MicrosoftVision.Activities",
+        "Version": "2.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities\\2.1.0\\lib\\net461\\UiPath.MicrosoftVision.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities\\2.1.0\\lib\\net461\\UiPath.MicrosoftVision.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities\\2.1.0\\lib\\net461\\UiPath.MicrosoftVision.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.microsoftvision.activities\\2.1.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.MLServices.Activities",
+        "Version": "1.1.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities\\1.1.3\\lib\\net461\\UiPath.MLServices.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities\\1.1.3\\lib\\net461\\UiPath.MLServices.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities\\1.1.3\\lib\\net461\\UiPath.MLServices.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.mlservices.activities\\1.1.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Activities",
+        "Version": "2.4.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.activities\\2.4.0\\lib\\net461\\UiPath.OCR.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.activities\\2.4.0\\lib\\net461\\UiPath.OCR.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.activities\\2.4.0\\lib\\net461\\UiPath.OCR.Core.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.activities\\2.4.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.OCR.Contracts",
+        "Version": "2.7.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1\\lib\\net461\\UiPath.OCR.Contracts.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.ocr.contracts\\2.7.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Platform",
+        "Version": "20.10.4"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.platform\\20.10.4\\lib\\net461\\UiPath.Platform.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.platform\\20.10.4"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Python.Activities",
+        "Version": "1.1.6863.33404"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404\\lib\\net452\\UiPath.Python.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404\\lib\\net452\\UiPath.Python.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404\\lib\\net452\\UiPath.Python.Host.exe",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404\\lib\\net452\\UiPath.Python.Host32.exe",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404\\lib\\net452\\UiPath.Python.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.python.activities\\1.1.6863.33404"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "20.10.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\CustomInputForm.exe",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.OrchestratorClient.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.System.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1\\lib\\net461\\UiPath.System.Activities.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.system.activities\\20.10.1"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Telemetry.Client",
+        "Version": "1.2.20"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.telemetry.client\\1.2.20\\lib\\net461\\TelemetryClient.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.telemetry.client\\1.2.20"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "20.10.6"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.DataGrid.Contrib.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Docking.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Editors.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Ribbon.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Shared.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Text.LLParser.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Text.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\ActiproSoftware.Wizard.Wpf.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.CV.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.CV.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.CV.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomation.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationNext.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationNext.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.UiAutomation.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\lib\\net461\\UiPath.Wizards.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Vision",
+        "Version": "2.2.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.Core.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision\\2.2.0\\lib\\net461\\UiPath.Vision.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.vision\\2.2.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.WebAPI.Activities",
+        "Version": "1.6.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities\\1.6.0\\lib\\net452\\UiPath.Web.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities\\1.6.0\\lib\\net452\\UiPath.Web.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities\\1.6.0\\lib\\net452\\UiPath.Web.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.webapi.activities\\1.6.0"
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Word.Activities",
+        "Version": "1.5.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities\\1.5.3\\lib\\net461\\UiPath.Word.Activities.Design.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities\\1.5.3\\lib\\net461\\UiPath.Word.Activities.dll",
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities\\1.5.3\\lib\\net461\\UiPath.Word.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipath.word.activities\\1.5.3"
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.ImageActivities.Activities",
+        "Version": "1.0.0.200"
+      },
+      "Assemblies": [
+        "C:\\Users\\alina.capota\\.nuget\\packages\\uipathteam.imageactivities.activities\\1.0.0.200\\lib\\ImageActivities.dll"
+      ],
+      "Path": "C:\\Users\\alina.capota\\.nuget\\packages\\uipathteam.imageactivities.activities\\1.0.0.200"
+    }
+  ]
+}
