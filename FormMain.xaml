@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1546,899.333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>578,700.666666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="36">
@@ -48,7 +48,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="39">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="78">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -88,6 +88,7 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>Newtonsoft.Json</AssemblyReference>
       <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="376,636" sap2010:WorkflowViewState.IdRef="Sequence_2">
@@ -104,6 +105,9 @@
       <Variable x:TypeArguments="x:String" Name="LungPhotoPath" />
       <Variable x:TypeArguments="x:String" Name="OutputLungPrediction" />
       <Variable x:TypeArguments="njl:JObject" Name="LungPrediction" />
+      <Variable x:TypeArguments="x:String" Name="OutputBreastPrediction" />
+      <Variable x:TypeArguments="x:String" Name="BreastPhotoPath" />
+      <Variable x:TypeArguments="njl:JObject" Name="BreastPrediction" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -119,12 +123,8 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke GetPhoto workflow" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="FormClaim\GetPhoto.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <OutArgument x:TypeArguments="x:String" x:Key="out_SelectedFile">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="ciFilePath" />
-          </OutArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="in_title">
-            <Literal x:TypeArguments="x:String">Please select patient's ID document</Literal>
-          </InArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="out_SelectedFile">[ciFilePath]</OutArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_title">Please select patient's ID document</InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Image_Preprocess workflow" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="FormClaim\Image_Preprocess.xaml">
@@ -157,35 +157,23 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke GetLungPhoto workflow" sap:VirtualizedContainerService.HintSize="350,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="FormClaim\GetPhoto.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <OutArgument x:TypeArguments="x:String" x:Key="out_SelectedFile">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="lungPhotoPath" />
-          </OutArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="in_title">
-            <Literal x:TypeArguments="x:String">Please select patient's LUNG XRay</Literal>
-          </InArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="out_SelectedFile">[lungPhotoPath]</OutArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_title">Please select patient's LUNG XRay</InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <uma:MLSkills ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Name="{x:Null}" NumberOfRetries="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" StatusCode="{x:Null}" TimeOutMs="{x:Null}" DisplayName="MLSkill" sap:VirtualizedContainerService.HintSize="350,353.333333333333" sap2010:WorkflowViewState.IdRef="MLSkills_1" Item="[LungPhotoPath]" JsonResponse="[OutputLungPrediction]" NextPageNum="2" RefreshList="False" TotalCount="3">
+      <uma:MLSkills ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Name="{x:Null}" NumberOfRetries="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SelectedMLSkill="{x:Reference __ReferenceID0}" StatusCode="{x:Null}" TimeOutMs="{x:Null}" DisplayName="MLSkill" sap:VirtualizedContainerService.HintSize="350,353.333333333333" sap2010:WorkflowViewState.IdRef="MLSkills_1" Item="[LungPhotoPath]" JsonResponse="[OutputLungPrediction]" NextPageNum="2" RefreshList="False" TotalCount="3">
         <uma:MLSkills.MLSkillList>
           <scg:List x:TypeArguments="um:MLSkill" Capacity="4">
             <um:MLSkill AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/generalner" Description="" Id="1a1587eb-b0f7-4073-9d0e-686e2ddf589d" InputDescription="Text in English from which entities will be extracted." InputType="JSON" Name="GeneralNER" OutputDescription="List of named entities in the text. Each elemnt in the list has the text that was recognized, the starting and ending positions (character-wise) of the text, the type of named entity and the confidence in that prediction. For example: [ {&quot;text&quot;: &quot;George Washington&quot;,&quot;start_pos&quot;: 0,&quot;end_pos&quot;: 17,&quot;type&quot;: &quot;PER&quot;,&quot;confidence&quot;: 0.96469810605049133 }, {&quot;text&quot;: &quot;New York City&quot;,&quot;start_pos&quot;: 26,&quot;end_pos&quot;: 39,&quot;type&quot;: &quot;LOC&quot;,&quot;confidence&quot;: 0.944470226764679 }, {&quot;text&quot;: &quot;Congress&quot;,&quot;start_pos&quot;: 51,&quot;end_pos&quot;: 59,&quot;type&quot;: &quot;ORG&quot;,&quot;confidence&quot;: 0.99666249752044678 }]" ProjectId="ff6f9619-67ce-4aed-8007-8c47d3e47980" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
             <um:MLSkill AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/imgclass" Description="" Id="d5731696-6563-4976-8cd0-5d5da058ba0f" InputDescription="" InputType="FILE" Name="imgclass" OutputDescription="" ProjectId="83c69d31-3e5c-4e4f-a30c-adb2b078d08e" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
-            <x:Reference>__ReferenceID0</x:Reference>
+            <um:MLSkill x:Name="__ReferenceID0" AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/lungxrayskill" Description="" Id="c76e1e10-735f-4ecb-83b8-11d224ce5bab" InputDescription="Image to be predicted" InputType="FILE" Name="LungXRaySkill" OutputDescription="May be: normal, pneumonia etc" ProjectId="881cc959-adae-4cb9-a905-26410d0fe47c" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
           </scg:List>
         </uma:MLSkills.MLSkillList>
-        <uma:MLSkills.SelectedMLSkill>
-          <um:MLSkill x:Name="__ReferenceID0" AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/lungxrayskill" Description="" Id="c76e1e10-735f-4ecb-83b8-11d224ce5bab" InputDescription="Image to be predicted" InputType="FILE" Name="LungXRaySkill" OutputDescription="May be: normal, pneumonia etc" ProjectId="881cc959-adae-4cb9-a905-26410d0fe47c" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
-        </uma:MLSkills.SelectedMLSkill>
       </uma:MLSkills>
       <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="350,62" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_1" JsonObject="[lungPrediction]" JsonString="[OutputLungPrediction]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="350,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[LungPrediction(&quot;prediction&quot;).ToString]" />
     </Sequence>
-    <Sequence DisplayName="Breast XRay processing" sap:VirtualizedContainerService.HintSize="392,701.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="BreastPhotoPath" />
-        <Variable x:TypeArguments="x:String" Name="OutputBreastPrediction" />
-        <Variable x:TypeArguments="njl:JObject" Name="BreastPrediction" />
-      </Sequence.Variables>
+    <Sequence DisplayName="Breast XRay processing" sap:VirtualizedContainerService.HintSize="334,69.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_5">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -194,28 +182,23 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke GetPhoto workflow" sap:VirtualizedContainerService.HintSize="350,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="FormClaim\GetPhoto.xaml">
         <ui:InvokeWorkflowFile.Arguments>
-          <OutArgument x:TypeArguments="x:String" x:Key="out_SelectedFile">
-            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="breastPhotoPath" />
-          </OutArgument>
-          <InArgument x:TypeArguments="x:String" x:Key="in_title">
-            <Literal x:TypeArguments="x:String">Please select patient's BREAST XRay</Literal>
-          </InArgument>
+          <OutArgument x:TypeArguments="x:String" x:Key="out_SelectedFile">[breastPhotoPath]</OutArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="in_title">Please select patient's BREAST XRay</InArgument>
         </ui:InvokeWorkflowFile.Arguments>
       </ui:InvokeWorkflowFile>
-      <uma:MLSkills ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Name="{x:Null}" NumberOfRetries="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" StatusCode="{x:Null}" TimeOutMs="{x:Null}" DisplayName="MLSkill" sap:VirtualizedContainerService.HintSize="350,353.333333333333" sap2010:WorkflowViewState.IdRef="MLSkills_2" Item="[BreastPhotoPath]" JsonResponse="[OutputBreastPrediction]" NextPageNum="2" RefreshList="False" TotalCount="4">
+      <uma:MLSkills ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Name="{x:Null}" NumberOfRetries="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SelectedMLSkill="{x:Reference __ReferenceID1}" StatusCode="{x:Null}" TimeOutMs="{x:Null}" DisplayName="MLSkill" sap:VirtualizedContainerService.HintSize="350,353.333333333333" sap2010:WorkflowViewState.IdRef="MLSkills_2" Item="[BreastPhotoPath]" JsonResponse="[OutputBreastPrediction]" NextPageNum="2" RefreshList="False" TotalCount="5">
         <uma:MLSkills.MLSkillList>
-          <scg:List x:TypeArguments="um:MLSkill" Capacity="4">
-            <x:Reference>__ReferenceID1</x:Reference>
+          <scg:List x:TypeArguments="um:MLSkill" Capacity="8">
+            <um:MLSkill x:Name="__ReferenceID1" AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/breastcancerdetectskill" Description="" Id="ede745cc-f0c8-4f5a-a903-2fd8410fa370" InputDescription="" InputType="FILE" Name="BreastCancerDetectSkill" OutputDescription="" ProjectId="881cc959-adae-4cb9-a905-26410d0fe47c" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
+            <um:MLSkill AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/breastcancerskill" Description="" Id="e0773301-3035-4456-81e8-7c946db9af4e" InputDescription="" InputType="FILE" Name="BreastCancerSkill" OutputDescription="" ProjectId="881cc959-adae-4cb9-a905-26410d0fe47c" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
             <um:MLSkill AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/generalner" Description="" Id="1a1587eb-b0f7-4073-9d0e-686e2ddf589d" InputDescription="Text in English from which entities will be extracted." InputType="JSON" Name="GeneralNER" OutputDescription="List of named entities in the text. Each elemnt in the list has the text that was recognized, the starting and ending positions (character-wise) of the text, the type of named entity and the confidence in that prediction. For example: [ {&quot;text&quot;: &quot;George Washington&quot;,&quot;start_pos&quot;: 0,&quot;end_pos&quot;: 17,&quot;type&quot;: &quot;PER&quot;,&quot;confidence&quot;: 0.96469810605049133 }, {&quot;text&quot;: &quot;New York City&quot;,&quot;start_pos&quot;: 26,&quot;end_pos&quot;: 39,&quot;type&quot;: &quot;LOC&quot;,&quot;confidence&quot;: 0.944470226764679 }, {&quot;text&quot;: &quot;Congress&quot;,&quot;start_pos&quot;: 51,&quot;end_pos&quot;: 59,&quot;type&quot;: &quot;ORG&quot;,&quot;confidence&quot;: 0.99666249752044678 }]" ProjectId="ff6f9619-67ce-4aed-8007-8c47d3e47980" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
             <um:MLSkill AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/imgclass" Description="" Id="d5731696-6563-4976-8cd0-5d5da058ba0f" InputDescription="" InputType="FILE" Name="imgclass" OutputDescription="" ProjectId="83c69d31-3e5c-4e4f-a30c-adb2b078d08e" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
             <um:MLSkill AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/lungxrayskill" Description="" Id="c76e1e10-735f-4ecb-83b8-11d224ce5bab" InputDescription="Image to be predicted" InputType="FILE" Name="LungXRaySkill" OutputDescription="May be: normal, pneumonia etc" ProjectId="881cc959-adae-4cb9-a905-26410d0fe47c" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
           </scg:List>
         </uma:MLSkills.MLSkillList>
-        <uma:MLSkills.SelectedMLSkill>
-          <um:MLSkill x:Name="__ReferenceID1" AccessUri="https://aifabric-staging.deskover.com/mlskills/5a09e646-99fa-4272-a475-64fb01be24a7/fc4aa3b0-30b7-4e20-aec2-f4551e482e9a/breastcancerskill" Description="" Id="e0773301-3035-4456-81e8-7c946db9af4e" InputDescription="" InputType="FILE" Name="BreastCancerSkill" OutputDescription="" ProjectId="881cc959-adae-4cb9-a905-26410d0fe47c" TenantId="fc4aa3b0-30b7-4e20-aec2-f4551e482e9a" />
-        </uma:MLSkills.SelectedMLSkill>
       </uma:MLSkills>
       <ui:DeserializeJson x:TypeArguments="njl:JObject" DisplayName="Deserialize JSON" sap:VirtualizedContainerService.HintSize="350,62" sap2010:WorkflowViewState.IdRef="DeserializeJson`1_2" JsonObject="[BreastPrediction]" JsonString="[OutputBreastPrediction]" />
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="350,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[BreastPrediction(&quot;benign&quot;).ToString + &quot; - &quot; + BreastPrediction(&quot;malignant&quot;).ToString]" />
     </Sequence>
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke FillForm workflow" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="FormClaim\FillForm.xaml">
       <ui:InvokeWorkflowFile.Arguments>
@@ -235,7 +218,7 @@
           <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="lungPrediction(&quot;prediction&quot;).ToString" />
         </InArgument>
         <InArgument x:TypeArguments="x:String" x:Key="in_Diagnostic2">
-          <Literal x:TypeArguments="x:String">{'benign': 0.052365876734256744, 'malignant': 0.005510155577212572}</Literal>
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="BreastPrediction(&quot;benign&quot;).ToString + &quot; - &quot; + BreastPrediction(&quot;malignant&quot;).ToString" />
         </InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
